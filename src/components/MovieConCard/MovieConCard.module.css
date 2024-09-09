@@ -46,6 +46,7 @@
 
 .title {
   text-align: center;
+  width: fit-content;
 }
 
 h4 {

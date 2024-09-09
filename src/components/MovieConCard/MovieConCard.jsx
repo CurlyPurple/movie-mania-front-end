@@ -13,7 +13,7 @@ const MovieConCard = ({ content }) => {
     <NavLink to={`/movieCons/${content._id}`}>
       <article className={styles.container}>
         <header>
-          <AuthorInfo content={content} />
+          <AuthorInfo content={content} /><br />
           <h1 className={styles.title}>{content.title}</h1>
         </header>
         <section className={styles.data}>

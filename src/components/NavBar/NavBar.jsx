@@ -1,6 +1,9 @@
 // npm modules
 import { NavLink } from 'react-router-dom'
 
+// assets
+import Icon from '../../assets/Logo.png'
+
 // css
 import styles from './NavBar.module.css'
 
@@ -8,7 +11,7 @@ const NavBar = ({ user, handleLogout }) => {
   return (
     <>
     <nav className={styles.container}>
-      <h1 className={styles.header}>Movie Mania</h1>
+      <h1 className={styles.header}>Movie Mania <img className={styles.logo} src={Icon} alt="Movie Mania Logo" /></h1>
       {user ?
         <ul>
           <li><NavLink to="/movieCons">MovieCons</NavLink></li>

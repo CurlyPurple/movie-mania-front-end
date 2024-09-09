@@ -53,3 +53,9 @@ img {
   background: black;
   height: fit-content;
 }
+
+h1 {
+  display: flex;
+  width: 15%;
+  align-items: center;
+}
